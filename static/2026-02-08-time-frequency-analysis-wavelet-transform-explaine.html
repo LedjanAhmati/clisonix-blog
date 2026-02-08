@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Time-frequency analysis: wavelet transform explained">
+    <meta name="keywords" content="healthtech, ai, machinelearning, programming, clisonix, healthcare AI, industrial intelligence">
+    <meta name="author" content="Clisonix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ledjanahmati.github.io/clisonix-blog/static/2026-02-08-signal_processing.html">
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Time-frequency analysis: wavelet transform explained">
+    <meta property="og:description" content="Time-frequency analysis: wavelet transform explained">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80">
+    <meta property="og:url" content="https://ledjanahmati.github.io/clisonix-blog/static/2026-02-08-signal_processing.html">
+    <meta property="og:site_name" content="Clisonix Blog">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Time-frequency analysis: wavelet transform explained">
+    <meta name="twitter:description" content="Time-frequency analysis: wavelet transform explained">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80">
+    <title>Time-frequency analysis: wavelet transform explained | Clisonix Blog</title>
+    <!-- Schema.org -->
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Time-frequency analysis: wavelet transform explained", "description": "Time-frequency analysis: wavelet transform explained", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80", "author": {"@type": "Organization", "name": "Clisonix", "url": "https://clisonix.com"}, "publisher": {"@type": "Organization", "name": "Clisonix - ABA GmbH", "url": "https://clisonix.com"}, "datePublished": "2026-02-08", "dateModified": "2026-02-08", "mainEntityOfPage": "https://ledjanahmati.github.io/clisonix-blog/static/2026-02-08-signal_processing.html", "keywords": "healthtech, ai, machinelearning, programming, clisonix, healthcare AI, industrial intelligence"}</script>
+    
+    <style>
+        :root { --primary: #2563eb; --accent: #00d4ff; --bg: #f8fafc; --text: #1e293b; --card: #fff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+               max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; background: var(--bg); color: var(--text); line-height: 1.8; }
+        h1 { color: var(--primary); font-size: 2.2rem; border-bottom: 3px solid var(--accent); padding-bottom: 0.75rem; margin-bottom: 0.5rem; }
+        h2 { color: var(--primary); margin: 2rem 0 1rem; font-size: 1.5rem; }
+        h3 { color: #334155; margin: 1.5rem 0 0.75rem; }
+        .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+        .tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.8rem; text-decoration: none; }
+        .content { margin-bottom: 2rem; }
+        .content p { margin-bottom: 1rem; }
+        .content img { max-width: 100%; height: auto; border-radius: 12px; margin: 1.5rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        figure { margin: 2rem 0; text-align: center; }
+        figcaption { color: #64748b; font-size: 0.85rem; margin-top: 0.5rem; font-style: italic; }
+        pre { background: #1e293b; color: #e2e8f0; padding: 1.5rem; border-radius: 12px; overflow-x: auto; margin: 1.5rem 0; }
+        code { font-family: 'Fira Code', 'Consolas', monospace; font-size: 0.9rem; }
+        p code { background: #e2e8f0; padding: 0.15rem 0.4rem; border-radius: 4px; color: var(--primary); }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: var(--card); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        th { background: var(--primary); color: white; padding: 0.75rem 1rem; text-align: left; }
+        td { padding: 0.75rem 1rem; border-bottom: 1px solid #e2e8f0; }
+        tr:hover { background: #f1f5f9; }
+        .video-section { margin: 2.5rem 0; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        .faq-item { background: var(--card); border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.25rem; margin: 1rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        .faq-q { color: var(--primary); font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .faq-a { color: #475569; }
+        .cta { background: linear-gradient(135deg, var(--primary), #7c3aed); color: white; padding: 2rem; border-radius: 16px; text-align: center; margin: 3rem 0; }
+        .cta a { color: var(--accent); font-weight: bold; text-decoration: none; }
+        .footer { text-align: center; padding: 2rem 0; color: #94a3b8; border-top: 1px solid #e2e8f0; margin-top: 3rem; font-size: 0.85rem; }
+        .footer a { color: var(--primary); text-decoration: none; }
+        @media (max-width: 640px) {
+            body { padding: 1rem; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <article itemscope itemtype="https://schema.org/TechArticle">
+        <h1 itemprop="headline">Time-frequency analysis: wavelet transform explained</h1>
+        <div class="meta">
+            <span>📅 <time itemprop="datePublished" datetime="2026-02-08">February 08, 2026</time></span>
+            <span>📁 Signal Processing</span>
+            <span>🏢 <span itemprop="author">Clisonix AI</span></span>
+        </div>
+        <div class="tags">
+            <span class="tag">healthtech</span><span class="tag">ai</span><span class="tag">machinelearning</span><span class="tag">programming</span>
+        </div>
+        <div class="content" itemprop="articleBody">
+            <strong>Time-Frequency Analysis: Wavelet Transform Explained</strong>
+<figure><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" alt="AI artificial intelligence concept" loading="lazy" style="width:100%;border-radius:12px;margin:1.5rem 0"><figcaption>AI artificial intelligence concept</figcaption></figure>
+<em>AI artificial intelligence concept — Photo: Unsplash</em>
+<p>In today's healthcare landscape, the accurate analysis of physiological signals is crucial for disease diagnosis and treatment. However, traditional methods often fall short in capturing the intricate patterns within these signals. This is where time-frequency analysis comes into play, leveraging wavelet transforms to uncover hidden insights.</p>
+<strong>The Problem</strong>
+<p>Signal processing in healthcare is plagued by two primary challenges: <strong>dimensionality reduction</strong> and <strong>feature extraction</strong>. The sheer volume of data generated from various sensors (e.g., EEG, ECG) makes it difficult to identify meaningful patterns. Moreover, the presence of noise, artifacts, and non-stationarity further complicates the analysis.</p>
+<p>To address these issues, researchers have turned to advanced techniques such as time-frequency analysis using wavelet transforms. By decomposing signals into their constituent frequency components, wavelets offer a more accurate representation of physiological phenomena.</p>
+<strong>Technical Deep Dive</strong>
+<p>Wavelet transform is a mathematical tool that decomposes a signal into different scales or frequencies. This process involves two main steps:</p>
+<p>1.  <strong>Discrete Wavelet Transform (DWT)</strong>: The DWT decomposes the input signal into approximation and detail coefficients, representing low-frequency and high-frequency components, respectively.
+2.  <strong>Inverse Discrete Wavelet Transform (IDWT)</strong>: The IDWT reconstructs the original signal from the approximation and detail coefficients.</p>
+<p>Clisonix's Signal Fabric technology weaves together EEG, audio, and biosensor streams to form a unified signal processing framework. By integrating wavelet transforms within this framework, clinicians can perform real-time time-frequency analysis on heterogeneous datasets.</p>
+<figure><img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80" alt="Machine learning network" loading="lazy" style="width:100%;border-radius:12px;margin:1.5rem 0"><figcaption>Machine learning network</figcaption></figure>
+<em>Machine learning network — Photo: Unsplash</em>
+<pre><code class="language-python">import numpy as np
+<h1>Generate sample data (e.g., EEG signal)</h1>
+data = np.random.rand(1024)
+<h1>Define the wavelet transform function</h1>
+def wavelet_transform(data):
+    from pywt import dwt2, idwt2
+    
+    # Apply DWT to decompose signal into approximation and detail coefficients
+    cA, (cH, cV, cD) = dwt2(data)
+    
+    # Reconstruct original signal using IDWT
+    reconstructed_signal = idwt2((cA, cH, cV, cD))
+    
+    return reconstructed_signal
+<h1>Apply wavelet transform to sample data</h1>
+transformed_data = wavelet_transform(data)
+<p>print("Transformed Data Shape:", transformed_data.shape)
+</code></pre></p>
+<strong>Real Data</strong>
+<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody><tr><td>Example</td><td>42</td></tr></tbody></table>
+In the following example, we apply wavelet transforms to a real EEG signal recorded from a patient with epilepsy. By analyzing the time-frequency representation of this signal, clinicians can identify abnormal patterns indicative of seizure activity.
+<pre><code class="language-python">import numpy as np
+<h1>Load real EEG data (e.g., from a hospital's database)</h1>
+from scipy.io import loadmat
+data = loadmat('patient_data.mat')['signal']
+<h1>Define wavelet transform function (same as above)</h1>
+<h1>Apply wavelet transform to EEG signal</h1>
+transformed_signal = wavelet_transform(data)
+<p>print("Transformed Signal Shape:", transformed_signal.shape)
+</code></pre></p>
+<strong>Results & Impact</strong>
+<p>By leveraging wavelet transforms in time-frequency analysis, researchers and clinicians can:</p>
+<p>1.  <strong>Identify hidden patterns</strong>: Uncover subtle changes in physiological signals that may be indicative of disease or abnormal conditions.
+2.  <strong>Reduce noise and artifacts</strong>: Improve signal quality by removing high-frequency components and retaining only meaningful features.
+3.  <strong>Enhance feature extraction</strong>: Extract relevant information from complex signals, facilitating more accurate diagnosis and treatment.</p>
+<figure><img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80" alt="AI robot technology" loading="lazy" style="width:100%;border-radius:12px;margin:1.5rem 0"><figcaption>AI robot technology</figcaption></figure>
+<em>AI robot technology — Photo: Unsplash</em>
+<strong>What's Next</strong>
+<p>As we continue to push the boundaries of healthcare AI, future research directions for time-frequency analysis using wavelet transforms include:</p>
+<p>1.  <strong>Developing novel algorithms</strong>: Improving the efficiency and accuracy of wavelet-based techniques for large-scale datasets.
+2.  <strong>Integrating with other technologies</strong>: Combining wavelet transforms with other signal processing tools (e.g., deep learning) to create more powerful diagnostic frameworks.
+3.  <strong>Applying to real-world scenarios</strong>: Validating the efficacy of wavelet-based analysis in clinical settings and developing practical guidelines for implementation.</p>
+<strong>Frequently Asked Questions</strong>
+<p>Q: What are some common applications of time-frequency analysis using wavelet transforms?
+<p class="faq-a">Wavelet transforms have been successfully applied in various domains, including EEG signal processing, medical imaging, and audio processing.</p>
+<p>Q: How do I choose the optimal wavelet basis for my specific problem?
+A: The selection of a suitable wavelet basis depends on the characteristics of your dataset. Some popular choices include Daubechies, Coiflets, and Haar.</p>
+<p>Q: Can I use wavelet transforms with other signal processing techniques, such as Fourier analysis?
+A: Yes! Wavelet transforms can be combined with other methods to create hybrid approaches that leverage their respective strengths.</p>
+<p>Q: What are the computational requirements for implementing wavelet transforms in large-scale datasets?
+A: The computational complexity of wavelet transforms depends on the size and dimensionality of your dataset. For very large datasets, distributed computing architectures or optimized algorithms may be necessary.</p>
+<strong>Get Involved</strong>
+<p>To learn more about Clisonix's Tide Engine technology and Signal Fabric framework, visit our GitHub repository at [https://github.com/clisonix](https://github.com/clisonix). Request a demo to explore the capabilities of wavelet transforms in time-frequency analysis.</p>
+<p>For further information or to discuss potential collaborations, contact us at [info@clisonix.com](mailto:info@clisonix.com).</p>
+<strong>References</strong>
+<p>*   Daubechies, I. (1992). Ten Lectures on Wavelets.
+*   Mallat, S. G. (1989). A theory for multiresolution signal decomposition: The wavelet representation.
+*   Perrier, C., & Brouard, J. P. (2016). Wavelet transforms in signal processing.</p>
+<p>Join our community to stay updated on the latest advancements in healthcare AI and signal processing!</p></p></div>
+        </div>
+        
+    <section class="video-section">
+        <h3>🎥 How AI Is Transforming Healthcare</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/aircAruvnKk"
+                    title="How AI Is Transforming Healthcare"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
+    </article>
+    <div class="cta">
+        <h3>🚀 Ready to explore Clisonix?</h3>
+        <p>Visit <a href="https://clisonix.com">clisonix.com</a> |
+           <a href="https://github.com/Web8kameleon-hub/clisonix.com">GitHub</a> |
+           <a href="mailto:info@clisonix.com">Contact Us</a></p>
+    </div>
+    <footer class="footer">
+        <p>© 2026
+            <a href="https://clisonix.com">Clisonix</a>
+            - ABA GmbH | Advancing Healthcare
+            Through Intelligent Signal Processing</p>
+    </footer>
+</body>
+</html>
