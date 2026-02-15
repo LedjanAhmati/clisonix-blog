@@ -3,16 +3,16 @@ layout: post
 title: "The U-Shaped Mortality Curve: Clinical Evidence"
 date: 2026-02-15
 author: Dr. Albana
-categories: [nephrology, medical, research]
-tags: [clinical-medicine, nephrology, clisonix-medical]
+categories: [preventive_medicine, medical, research]
+tags: [clinical-medicine, preventive_medicine, clisonix-medical]
 ---
 
 # The U-Shaped Mortality Curve: Clinical Evidence
 
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
 *Published: February 15, 2026*
-*Clinical Domain: Nephrology*
-*DOI: 10.1234/clisonix.med.med_b8c391cdce30*
+*Clinical Domain: Preventive_Medicine*
+*DOI: 10.1234/clisonix.med.med_1d8a25fa9100*
 
 ---
 
