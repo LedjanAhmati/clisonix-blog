@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hepatic Ammonia and IGF-1 Dysregulation: The Common Pathway"
-date: 2026-02-15 06:03:10 +0000
+date: 2026-02-15 06:05:10 +0000
 categories: [Technology, Neurotechnology, Brain-Computer Interface]
 author: Blerina
 source: blerina
