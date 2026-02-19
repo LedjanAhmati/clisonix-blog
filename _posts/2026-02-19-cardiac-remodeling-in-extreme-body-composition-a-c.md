@@ -12,7 +12,7 @@ tags: [clinical-medicine, cardiology, clisonix-medical]
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
 *Published: February 19, 2026*
 *Clinical Domain: Cardiology*
-*DOI: 10.1234/clisonix.med.med_46ea677af36e*
+*DOI: 10.1234/clisonix.med.med_83dda08357a0*
 
 ---
 
