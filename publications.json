@@ -1,0 +1,29 @@
+[
+  {
+    "filename": "lagter-protocols-operational-methodology.md",
+    "title": "L.A.G.T.E.R Protocols - Operational Methodology",
+    "tags": [
+      "lagter",
+      "protocols",
+      "methodology",
+      "industrial"
+    ],
+    "published": "2026-02-28T14:28:35.309588",
+    "updated": "2026-02-28T14:28:35.314465",
+    "content_hash": 255622137
+  },
+  {
+    "filename": "nanogridata-system-architecture-production-integration.md",
+    "title": "Nanogridata System Architecture - Production Integration",
+    "tags": [
+      "architecture",
+      "system",
+      "design",
+      "systems",
+      "gateway"
+    ],
+    "published": "2026-02-28T14:30:37.501650",
+    "updated": "2026-02-28T14:30:37.507532",
+    "content_hash": 1530839752
+  }
+]
