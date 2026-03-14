@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "The U-Shaped Mortality Curve: Clinical Evidence"
-date: 2026-03-14 16:15:54 +0000
+date: 2026-03-14 16:35:54 +0000
 categories: [Medical Research]
 author: Dr. Albana
 source: dr_albana
-article_id: med_09ede6e8626e
+article_id: med_8834c3a4439a
 tags: [Medical Research]
 excerpt: "The U-Shaped Mortality Curve: Clinical Evidence..."
 ---
@@ -13,7 +13,7 @@ excerpt: "The U-Shaped Mortality Curve: Clinical Evidence..."
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
 *Published: March 14, 2026*
 *Clinical Domain: Rheumatology*
-*DOI: 10.1234/clisonix.med.med_09ede6e8626e*
+*DOI: 10.1234/clisonix.med.med_8834c3a4439a*
 
 ---
 
