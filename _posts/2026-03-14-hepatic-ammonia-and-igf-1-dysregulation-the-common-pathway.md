@@ -1,19 +1,19 @@
 ---
 layout: post
 title: "Hepatic Ammonia and IGF-1 Dysregulation: The Common Pathway"
-date: 2026-03-14 16:08:45 +0000
+date: 2026-03-14 16:09:10 +0000
 categories: [Medical Research, Hepatology]
 author: Dr. Albana
 source: dr_albana
-article_id: med_6e4f086559c2
+article_id: med_83429e92a639
 tags: [Medical Research, Hepatology]
 excerpt: "Hepatic Ammonia and IGF-1 Dysregulation: The Common Pathway..."
 ---
 
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
-*Published: March 13, 2026*
+*Published: March 14, 2026*
 *Clinical Domain: Hepatology*
-*DOI: 10.1234/clisonix.med.med_6e4f086559c2*
+*DOI: 10.1234/clisonix.med.med_83429e92a639*
 
 ---
 
