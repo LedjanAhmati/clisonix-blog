@@ -1,19 +1,19 @@
 ---
 layout: post
 title: "Hormonal Disruption Across the BMI Spectrum"
-date: 2026-03-14 16:09:06 +0000
+date: 2026-03-14 16:55:55 +0000
 categories: [Medical Research, Endocrinology]
 author: Dr. Albana
 source: dr_albana
-article_id: med_84cb40e4a350
+article_id: med_fbec7ed6ddfa
 tags: [Medical Research, Endocrinology]
 excerpt: "Hormonal Disruption Across the BMI Spectrum..."
 ---
 
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
-*Published: March 13, 2026*
+*Published: March 14, 2026*
 *Clinical Domain: Endocrinology*
-*DOI: 10.1234/clisonix.med.med_84cb40e4a350*
+*DOI: 10.1234/clisonix.med.med_fbec7ed6ddfa*
 
 ---
 
