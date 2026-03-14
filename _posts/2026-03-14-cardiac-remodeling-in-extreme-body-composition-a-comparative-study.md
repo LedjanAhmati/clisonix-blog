@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Cardiac Remodeling in Extreme Body Composition: A Comparative Study"
-date: 2026-03-14 01:30:05 +0000
+date: 2026-03-14 02:50:06 +0000
 categories: [Medical Research, Cardiology, Body Composition]
 author: Dr. Albana
 source: dr_albana
-article_id: med_5c7165ee3ca8
+article_id: med_2d3ce17ca304
 tags: [Medical Research, Cardiology]
 excerpt: "Cardiac Remodeling in Extreme Body Composition: A Comparative Study..."
 ---
@@ -13,7 +13,7 @@ excerpt: "Cardiac Remodeling in Extreme Body Composition: A Comparative Study...
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
 *Published: March 14, 2026*
 *Clinical Domain: Cardiology*
-*DOI: 10.1234/clisonix.med.med_5c7165ee3ca8*
+*DOI: 10.1234/clisonix.med.med_2d3ce17ca304*
 
 ---
 
