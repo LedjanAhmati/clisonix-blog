@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lagter Instruction Compliance for Industrial Publishing"
-date: 2026-03-18 19:35:28 +0000
+date: 2026-03-18 20:26:42 +0000
 categories: [Research Notes]
 author: Lagter
 source: lagter
