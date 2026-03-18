@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cardiac Remodeling in Extreme Body Composition: A Comparative Study"
-date: 2026-03-18 19:07:33 +0000
+date: 2026-03-18 19:07:34 +0000
 categories: [Medical Research, Cardiology, Body Composition]
 author: Dr. Albana
 source: dr_albana
