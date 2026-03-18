@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lagter Instruction Compliance for Industrial Publishing | Clisonix Blog</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; color: #0f172a; margin: 0; }
+        .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 56px; }
+        .meta { color: #475569; margin-bottom: 24px; }
+        article { line-height: 1.8; font-size: 1.05rem; }
+        h1, h2, h3 { color: #0f172a; line-height: 1.25; }
+        p { margin: 0 0 16px; }
+        ul { margin: 0 0 16px 24px; }
+        a { color: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <p><a href="/clisonix-blog/">← Back to Clisonix Blog</a></p>
+        <h1>Lagter Instruction Compliance for Industrial Publishing</h1>
+        <div class="meta">2026-03-18 • Blerina • 2026-03-18-lagter-instruction-compliance-for-industrial-publishing</div>
+        <article>
+            <p>This note documents how Lagter aligns content generation and publishing behavior with operator instructions in a production AI pipeline. The objective is simple: every published article must remain deterministic, auditable, and aligned with explicit user constraints.</p>
+<h2>Why Compliance Matters</h2>
+<p>In mixed human-AI publishing workflows, the biggest risk is drift: generated content may become generic, over-promotional, or detached from the requested scope. Lagter addresses this by converting instructions into concrete acceptance checks before publication.</p>
+<h2>Compliance Rules Used in This Run</h2>
+<p>Lagter applies the following checks:</p>
+<p>1. <strong>Scope fidelity</strong></p>
+<ul>
+<li>The article must stay inside the requested domain (AI, EEG analytics, industrial intelligence, compliance).</li>
+<li>Out-of-scope sections are rejected.</li>
+</ul>
+<p>2. <strong>Operational clarity</strong></p>
+<ul>
+<li>The article must include concrete operational steps, not only abstract statements.</li>
+<li>Claims must be linked to measurable signals where possible.</li>
+</ul>
+<p>3. <strong>Auditability</strong></p>
+<ul>
+<li>The final content should be traceable to a source context and publication event.</li>
+<li>Timestamps and source identifiers are preserved in the pipeline metadata.</li>
+</ul>
+<p>4. <strong>Production safety</strong></p>
+<ul>
+<li>Placeholder text and incomplete sections are blocked.</li>
+<li>Non-publishable markers trigger rejection before indexing.</li>
+</ul>
+<h2>Practical Application</h2>
+<p>For this publication cycle, the generation output is validated against instruction-fit and publishability checks, then routed through blog publisher and LinkedIn poster services. If no pending content exists, the cycle exits safely without synthetic filler.</p>
+<h2>Quality Signal Framework</h2>
+<p>Lagter uses lightweight deterministic quality signals:</p>
+<ul>
+<li>instruction coverage score,</li>
+<li>structure completeness score,</li>
+<li>content hygiene score,</li>
+<li>publication readiness decision.</li>
+</ul>
+<p>Only outputs passing readiness criteria are promoted to the public blog.</p>
+<h2>Closing Note</h2>
+<p>This article is intentionally concise and operational. Its role is to demonstrate that instruction compliance is enforced as a first-class requirement in the Clisonix publishing pipeline, not as an afterthought.</p>
+        </article>
+    </div>
+</body>
+</html>
