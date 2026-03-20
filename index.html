@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang=\"en\">
+<html lang="en">
 <head>
-  <meta charset=\"UTF-8\" />
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clisonix Blog - AI & Industrial Intelligence</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -26,20 +26,20 @@
   </style>
 </head>
 <body>
-  <div class=\"wrap\">
+    <div class="wrap">
     <header>
       <h1>Clisonix Blog</h1>
-      <p class=\"sub\">AI, EEG Analytics, Industrial Intelligence & Compliance</p>
-      <p class=\"meta\" id=\"count\"></p>
+    <p class="sub">AI, EEG Analytics, Industrial Intelligence & Compliance</p>
+    <p class="meta" id="count"></p>
     </header>
-    <div class=\"toolbar\">
-      <input id=\"search\" placeholder=\"Search articles...\" />
+        <div class="toolbar">
+            <input id="search" placeholder="Search articles..." />
     </div>
-    <div id=\"list\" class=\"grid\"></div>
-    <div class=\"pager\">
-      <button id=\"prev\">Prev</button>
-      <span id=\"pageInfo\"></span>
-      <button id=\"next\">Next</button>
+        <div id="list" class="grid"></div>
+        <div class="pager">
+            <button id="prev">Prev</button>
+            <span id="pageInfo"></span>
+            <button id="next">Next</button>
     </div>
     <footer>© 2026 Clisonix - Powered by AI</footer>
   </div>
@@ -154,9 +154,9 @@
       next.disabled = state.page >= totalPages;
 
       list.innerHTML = pageItems.map(a => `
-        <article class=\"card\">
-          <a href=\"${a.url}\">${a.title}</a>
-          <div class=\"date\">${a.display_date}</div>
+                <article class="card">
+                    <a href="${a.url}">${a.title}</a>
+                    <div class="date">${a.display_date}</div>
         </article>
       `).join('');
     }
