@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-  <meta charset='UTF-8' />
-  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <title>Redirecting…</title>
-  <script>
-    (function() {
-      const path = window.location.pathname || '/';
-      const duplicated = '/clisonix-blog/clisonix-blog/';
-      if (path.includes(duplicated)) {
-        const fixed = path.replace(duplicated, '/clisonix-blog/');
-        window.location.replace(${window.location.origin});
-        return;
-      }
-      window.location.replace('https://ledjanahmati.github.io/clisonix-blog/');
-    })();
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+        (function() {
+            const path = window.location.pathname || '/';
+            const duplicated = '/clisonix-blog/clisonix-blog/';
+            if (path.includes(duplicated)) {
+                const fixed = path.replace(duplicated, '/clisonix-blog/');
+                const target = `${window.location.origin}${fixed}${window.location.search}${window.location.hash}`;
+                window.location.replace(target);
+                return;
+            }
+            window.location.replace('https://ledjanahmati.github.io/clisonix-blog/');
+        })();
+    </script>
 </head>
-<body>Redirecting to Clisonix Blog…</body>
+<body>
+    Redirecting to Clisonix Blog…
+</body>
 </html>
