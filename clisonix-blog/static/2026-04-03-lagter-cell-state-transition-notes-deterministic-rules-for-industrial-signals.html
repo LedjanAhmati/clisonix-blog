@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This Lagter note defines a deterministic method for tracking cell-state transitions in noisy industrial telemetry. The objective is to avoid black-box decisions by using explicit transition rules, ..." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://ledjanahmati.github.io/clisonix-blog/static/2026-04-03-lagter-cell-state-transition-notes-deterministic-rules-for-industrial-signals.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals" />
+    <meta property="og:description" content="This Lagter note defines a deterministic method for tracking cell-state transitions in noisy industrial telemetry. The objective is to avoid black-box decisions by using explicit transition rules, ..." />
+    <meta property="og:url" content="https://ledjanahmati.github.io/clisonix-blog/static/2026-04-03-lagter-cell-state-transition-notes-deterministic-rules-for-industrial-signals.html" />
+    <meta property="og:image" content="https://clisonix.com/images/clisonix-og-default.png" />
+    <meta property="og:site_name" content="Clisonix Blog" />
+    <meta property="article:author" content="Blerina" />
+    <meta property="article:published_time" content="2026-04-03" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals" />
+    <meta name="twitter:description" content="This Lagter note defines a deterministic method for tracking cell-state transitions in noisy industrial telemetry. The objective is to avoid black-box decisions by using explicit transition rules, ..." />
+    <meta name="twitter:image" content="https://clisonix.com/images/clisonix-og-default.png" />
+    <title>Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals | Clisonix Blog</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; color: #0f172a; margin: 0; }
+        .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 56px; }
+        .meta { color: #475569; margin-bottom: 24px; }
+        article { line-height: 1.8; font-size: 1.05rem; }
+        h1, h2, h3 { color: #0f172a; line-height: 1.25; }
+        p { margin: 0 0 16px; }
+        ul { margin: 0 0 16px 24px; }
+        a { color: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <p><a href="/clisonix-blog/">← Back to Clisonix Blog</a></p>
+        <h1>Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals</h1>
+        <div class="meta">2026-04-03 • Blerina • 2026-03-18-lagter-cell-state-transition-notes</div>
+        <article>
+            <p>This Lagter note defines a deterministic method for tracking cell-state transitions in noisy industrial telemetry. The objective is to avoid black-box decisions by using explicit transition rules, confidence thresholds, and explainable state labels that can be audited in production.</p>
+<h2>Problem Context</h2>
+<p>Industrial data streams often show abrupt shifts caused by vibration, thermal drift, or process phase changes. A simple average can hide these changes, while an overly sensitive detector generates false alarms. Lagter uses a middle path: rule-based transitions with bounded sensitivity.</p>
+<h2>Proposed Transition Model</h2>
+<p>We model a signal with five states:</p>
+<p>1. Baseline Stable</p>
+<p>2. Rising Stress</p>
+<p>3. Critical Deviation</p>
+<p>4. Recovery</p>
+<p>5. Re-Stabilized</p>
+<p>A transition from one state to another is accepted only if all conditions hold:</p>
+<ul>
+<li>minimum dwell window satisfied,</li>
+<li>gradient threshold exceeded,</li>
+<li>residual error above adaptive baseline,</li>
+<li>no contradiction with control channel constraints.</li>
+</ul>
+<h2>Deterministic Scoring</h2>
+<p>For each time window we compute:</p>
+<ul>
+<li>normalized gradient score,</li>
+<li>variance pressure score,</li>
+<li>cross-sensor coherence score,</li>
+<li>recent anomaly persistence score.</li>
+</ul>
+<p>The final transition score is a weighted sum with fixed limits. If score &gt;= 0.82 the next state is committed. If score is between 0.65 and 0.82, Lagter marks the state as tentative and waits one additional window.</p>
+<h2>Why This Helps Operations</h2>
+<p>This approach gives operators a clear answer to &quot;why did state change now?&quot;. Every transition has rule traces and bounded uncertainty. This improves trust, reduces alert fatigue, and supports compliance reporting in regulated industrial workflows.</p>
+<h2>Deployment Notes</h2>
+<ul>
+<li>Keep window size between 20s and 60s for medium-frequency process telemetry.</li>
+<li>Use conservative thresholds during first week to collect baseline behavior.</li>
+<li>Export transition logs with timestamp, previous state, new state, and score components.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Lagter can be used as a deterministic orchestration layer for state transitions where explainability matters as much as detection quality. This note is intended as a publishable reference for the Clisonix pipeline and future model-to-rule alignment.</p>
+        </article>
+    </div>
+</body>
+</html>
