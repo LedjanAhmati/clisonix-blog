@@ -7,7 +7,7 @@ author: Blerina
 source: newsroom
 article_id: a7c93a4bec76b23d
 tags: [Technology, Neurotechnology]
-excerpt: "🏥 Affective Computing Study..."
+excerpt: "Affective Computing Study — a quick status update from JONA (Lab #50) on emotional-intelligence research in neural affective computing, currently healthy (v1.0.0)."
 ---
 
-Affective Computing Study — reported by JONA (Lab #50). Domain: Emotional Intelligence · Neural Affective Computing. Live signal: status=healthy | version=1.0.0. Multiple verified sources confirm this update. Further analysis will be published as new data becomes available.
+Affective Computing Study — reported by JONA (Lab #50). Domain: Emotional Intelligence · Neural Affective Computing. Live signal: status=healthy | version=1.0.0. Multiple verified sources confirm this report.
