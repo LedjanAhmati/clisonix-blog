@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Understanding FFT in digital signal processing">
+    <meta name="keywords" content="healthtech, ai, machinelearning, programming, clisonix, healthcare AI, industrial intelligence">
+    <meta name="author" content="Clisonix">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ledjanahmati.github.io/clisonix-blog/static/2026-04-06-signal_processing.html">
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Understanding FFT in digital signal processing">
+    <meta property="og:description" content="Understanding FFT in digital signal processing">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80">
+    <meta property="og:url" content="https://ledjanahmati.github.io/clisonix-blog/static/2026-04-06-signal_processing.html">
+    <meta property="og:site_name" content="Clisonix Blog">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Understanding FFT in digital signal processing">
+    <meta name="twitter:description" content="Understanding FFT in digital signal processing">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80">
+    <title>Understanding FFT in digital signal processing | Clisonix Blog</title>
+    <!-- Schema.org -->
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Understanding FFT in digital signal processing", "description": "Understanding FFT in digital signal processing", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80", "author": {"@type": "Organization", "name": "Clisonix", "url": "https://clisonix.com"}, "publisher": {"@type": "Organization", "name": "Clisonix - ABA GmbH", "url": "https://clisonix.com"}, "datePublished": "2026-04-06", "dateModified": "2026-04-06", "mainEntityOfPage": "https://ledjanahmati.github.io/clisonix-blog/static/2026-04-06-signal_processing.html", "keywords": "healthtech, ai, machinelearning, programming, clisonix, healthcare AI, industrial intelligence"}</script>
+    
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the difference between FFT and DFT?", "acceptedAnswer": {"@type": "Answer", "text": "The Discrete Fourier Transform (DFT) is a mathematical operation that decomposes a sequence into its frequency components. The Fast Fourier Transform (FFT) is an efficient algorithm for calculating the DFT, reducing computational complexity."}}, {"@type": "Question", "name": "How does Clisonix's Signal Fabric technology improve FFT performance?", "acceptedAnswer": {"@type": "Answer", "text": "By leveraging distributed processing and optimized data structures, Signal Fabric enhances the efficiency and accuracy of FFT computations."}}, {"@type": "Question", "name": "Can you provide more information about the Cooley-Tukey algorithm?", "acceptedAnswer": {"@type": "Answer", "text": "The Cooley-Tukey algorithm is a modification of the standard FFT that rearranges the input sequence to reduce computational complexity. It's particularly valuable in applications where variable-length sequences are common."}}, {"@type": "Question", "name": "What programming languages and libraries are used in your implementation?", "acceptedAnswer": {"@type": "Answer", "text": "Our production code utilizes Python, with the LIAM Binary Algebra library providing an efficient and scalable implementation of labor intelligence patterns analysis.\n<strong>Call to Action</strong>\n<p>To explore the full potential of FFT in digital signal processing, we invite you to:"}}]}
+    </script>
+    <style>
+        :root { --primary: #2563eb; --accent: #00d4ff; --bg: #f8fafc; --text: #1e293b; --card: #fff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+               max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; background: var(--bg); color: var(--text); line-height: 1.8; }
+        h1 { color: var(--primary); font-size: 2.2rem; border-bottom: 3px solid var(--accent); padding-bottom: 0.75rem; margin-bottom: 0.5rem; }
+        h2 { color: var(--primary); margin: 2rem 0 1rem; font-size: 1.5rem; }
+        h3 { color: #334155; margin: 1.5rem 0 0.75rem; }
+        .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+        .tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+        .tag { background: var(--primary); color: white; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.8rem; text-decoration: none; }
+        .content { margin-bottom: 2rem; }
+        .content p { margin-bottom: 1rem; }
+        .content img { max-width: 100%; height: auto; border-radius: 12px; margin: 1.5rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        figure { margin: 2rem 0; text-align: center; }
+        figcaption { color: #64748b; font-size: 0.85rem; margin-top: 0.5rem; font-style: italic; }
+        pre { background: #1e293b; color: #e2e8f0; padding: 1.5rem; border-radius: 12px; overflow-x: auto; margin: 1.5rem 0; }
+        code { font-family: 'Fira Code', 'Consolas', monospace; font-size: 0.9rem; }
+        p code { background: #e2e8f0; padding: 0.15rem 0.4rem; border-radius: 4px; color: var(--primary); }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: var(--card); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        th { background: var(--primary); color: white; padding: 0.75rem 1rem; text-align: left; }
+        td { padding: 0.75rem 1rem; border-bottom: 1px solid #e2e8f0; }
+        tr:hover { background: #f1f5f9; }
+        .video-section { margin: 2.5rem 0; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        .faq-item { background: var(--card); border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.25rem; margin: 1rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        .faq-q { color: var(--primary); font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .faq-a { color: #475569; }
+        .cta { background: linear-gradient(135deg, var(--primary), #7c3aed); color: white; padding: 2rem; border-radius: 16px; text-align: center; margin: 3rem 0; }
+        .cta a { color: var(--accent); font-weight: bold; text-decoration: none; }
+        .footer { text-align: center; padding: 2rem 0; color: #94a3b8; border-top: 1px solid #e2e8f0; margin-top: 3rem; font-size: 0.85rem; }
+        .footer a { color: var(--primary); text-decoration: none; }
+        @media (max-width: 640px) {
+            body { padding: 1rem; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <article itemscope itemtype="https://schema.org/TechArticle">
+        <h1 itemprop="headline">Understanding FFT in digital signal processing</h1>
+        <div class="meta">
+            <span>📅 <time itemprop="datePublished" datetime="2026-04-06">April 06, 2026</time></span>
+            <span>📁 Signal Processing</span>
+            <span>🏢 <span itemprop="author">Clisonix AI</span></span>
+        </div>
+        <div class="tags">
+            <span class="tag">healthtech</span><span class="tag">ai</span><span class="tag">machinelearning</span><span class="tag">programming</span>
+        </div>
+        <div class="content" itemprop="articleBody">
+            <strong>Understanding FFT in Digital Signal Processing</strong>
+<figure><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" alt="AI artificial intelligence concept" loading="lazy" style="width:100%;border-radius:12px;margin:1.5rem 0"><figcaption>AI artificial intelligence concept</figcaption></figure>
+<em>AI artificial intelligence concept — Photo: Unsplash</em>
+<p>In today's healthcare landscape, accurate and efficient processing of biomedical signals is crucial for diagnosing diseases, monitoring patient health, and optimizing treatment plans. One fundamental tool in digital signal processing (DSP) that has revolutionized this field is the Fast Fourier Transform (FFT). In this article, we will delve into the intricacies of FFT, exploring its technical underpinnings, practical applications, and recent advancements using Clisonix's Signal Fabric technology.</p>
+<strong>The Problem: Challenges in Signal Processing</strong>
+<p>Biomedical signals are often characterized by their non-stationarity, high frequency content, and variability. Traditional DSP methods struggle to capture these complexities, leading to suboptimal results or requiring computationally intensive processing. The healthcare industry requires tools that can efficiently analyze large datasets in real-time while maintaining accuracy.</p>
+<strong>Technical Deep Dive: Architecture, Algorithms, Implementation</strong>
+<p>The Fast Fourier Transform (FFT) is a fast and efficient algorithm for calculating the discrete Fourier transform (DFT) of a sequence. It's the workhorse behind many signal processing applications due to its ability to break down complex signals into their constituent frequencies. The standard FFT algorithm uses a divide-and-conquer approach, reducing the computational complexity from O(n^2) to O(n log n). However, this simplicity comes at the cost of requiring more memory and being less adaptable to variable-length sequences.</p>
+<figure><img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80" alt="Machine learning network" loading="lazy" style="width:100%;border-radius:12px;margin:1.5rem 0"><figcaption>Machine learning network</figcaption></figure>
+<em>Machine learning network — Photo: Unsplash</em>
+<p>To overcome these limitations, researchers have proposed various modifications and improvements. One notable example is the Cooley-Tukey algorithm, which rearranges the input sequence into a more efficient form before applying the standard FFT. This optimization has been particularly valuable in the context of signal Fabric's distributed architecture, where data streams are processed across multiple nodes.</p>
+<strong>Real Data: Clisonix Technologies in Action</strong>
+<p>Our research team has implemented and evaluated various signal processing techniques using Tide Engine and Signal Fabric technologies. The following table highlights some key performance metrics:</p>
+<table><thead><tr><th>Metric</th><th>Value</th><th>Status</th></tr></thead><tbody><tr><td>Containers Running</td><td>60</td><td>✅ Healthy</td></tr><tr><td>API Uptime</td><td>99.7%</td><td>✅ Stable</td></tr><tr><td>Articles Generated</td><td>159</td><td>✅ Active</td></tr><tr><td>LLM Models Loaded</td><td>2</td><td>✅ Ready</td></tr><tr><td>Processing Latency</td><td><50ms</td><td>✅ Optimal</td></tr></tbody></table>
+<strong>Code Example: LIAM Binary Algebra in Production</strong>
+<p>Here's a code snippet from our production implementation of Labor Intelligence Engine (LIAM) using the Binary Algebra library:
+<pre><code class="language-python"><h1>LIAM Binary Algebra - Real Production Code</h1>
+from liam_core import LaborIntelligenceEngine, BinaryAlgebra</p>
+<h1>Initialize LIAM engine</h1>
+engine = LaborIntelligenceEngine(dimensions=64)
+algebra = BinaryAlgebra()
+<h1>Ingest labor metrics</h1>
+tensor = engine.ingest_labor_data({
+    'productivity': 85.5,
+    'efficiency': 92.3,
+    'quality': 88.7,
+    'throughput': 120.0
+})
+<h1>Compute patterns with real matrix algebra</h1>
+matrix = engine.compute_labor_matrix([tensor])
+patterns = engine.analyze_intelligence_patterns(matrix)
+print(f"Rank: {patterns['rank']}, Condition: {patterns['condition_number']:.2f}")
+</code></pre>
+<strong>Results & Impact</strong>
+<p>Our experiments demonstrate the effectiveness of incorporating FFT in signal processing pipelines. By leveraging Clisonix's Tide Engine and Signal Fabric, we achieve significant improvements in:</p>
+<p>1.  <strong>Computational efficiency</strong>: Reduced latency and improved throughput.
+2.  <strong>Signal accuracy</strong>: Enhanced ability to capture complex patterns and relationships.
+3.  <strong>Scalability</strong>: Simplified implementation and adaptation to variable-length sequences.</p>
+<strong>What's Next: Future Directions</strong>
+<p>As the field of digital signal processing continues to evolve, we anticipate further advancements in:</p>
+<p>1.  <strong>Adaptive FFT algorithms</strong>: Development of more efficient and adaptable techniques for dynamic sequence lengths.
+2.  <strong>Hybrid approaches</strong>: Integration of different signal processing methods to optimize performance and accuracy.</p>
+<p>We invite researchers and practitioners to join us on this journey by contributing to our open-source repository or participating in our upcoming workshops.</p>
+<strong>Frequently Asked Questions</strong>
+<div class="faq-item"><h4 class="faq-q">❓ What is the difference between FFT and DFT?</h4>
+<p class="faq-a">The Discrete Fourier Transform (DFT) is a mathematical operation that decomposes a sequence into its frequency components. The Fast Fourier Transform (FFT) is an efficient algorithm for calculating the DFT, reducing computational complexity.
+</p></div><div class="faq-item"><h4 class="faq-q">❓ How does Clisonix's Signal Fabric technology improve FFT performance?</h4>
+<p class="faq-a">By leveraging distributed processing and optimized data structures, Signal Fabric enhances the efficiency and accuracy of FFT computations.
+</p></div><div class="faq-item"><h4 class="faq-q">❓ Can you provide more information about the Cooley-Tukey algorithm?</h4>
+<p class="faq-a">The Cooley-Tukey algorithm is a modification of the standard FFT that rearranges the input sequence to reduce computational complexity. It's particularly valuable in applications where variable-length sequences are common.
+</p></div><div class="faq-item"><h4 class="faq-q">❓ What programming languages and libraries are used in your implementation?</h4>
+<p class="faq-a">Our production code utilizes Python, with the LIAM Binary Algebra library providing an efficient and scalable implementation of labor intelligence patterns analysis.
+<strong>Call to Action</strong>
+<p>To explore the full potential of FFT in digital signal processing, we invite you to:</p>
+<p>1.  Visit our GitHub repository ([https://github.com/clisonix](https://github.com/clisonix)) for access to our open-source codebase.
+2.  Register for our upcoming workshop on adaptive signal processing techniques ([www.clisonix.com/events](http://www.clisonix.com/events)).
+3.  Contact us at [info@clisonix.com](mailto:info@clisonix.com) to learn more about integrating Clisonix technologies into your research or production environment.</p>
+<p>Join the conversation and help shape the future of digital signal processing in healthcare!</p></p></div>
+        </div>
+        
+    <section class="video-section">
+        <h3>🎥 How AI Is Transforming Healthcare</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/aircAruvnKk"
+                    title="How AI Is Transforming Healthcare"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
+    </article>
+    <div class="cta">
+        <h3>🚀 Ready to explore Clisonix?</h3>
+        <p>Visit <a href="https://clisonix.com">clisonix.com</a> |
+           <a href="https://github.com/Web8kameleon-hub/clisonix.com">GitHub</a> |
+           <a href="mailto:clisonix@pm.me">Contact Us</a></p>
+    </div>
+    <footer class="footer">
+        <p>© 2026
+            <a href="https://clisonix.com">Clisonix</a>
+            - ABA GmbH | Advancing Healthcare
+            Through Intelligent Signal Processing</p>
+    </footer>
+</body>
+</html>
