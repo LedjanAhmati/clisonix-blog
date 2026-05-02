@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Lagter Instruction Compliance for Industrial Publishing"
-date: 2026-03-18 20:26:42 +0000
+date: 2026-05-02 22:20:11 +0000
 categories: [Research Notes]
 author: Lagter
 source: lagter
 article_id: 2026-03-18-lagter-instruction-compliance-for-industrial-publishing
-tags: [Research Notes]
-excerpt: "Lagter Instruction Compliance for Industrial Publishing..."
+tags: [Clisonix, ClisonixCloud, lagter, Research Notes, Research, Science]
+excerpt: "## Executive Summary This note documents how Lagter aligns content generation and publishing behavior with operator instructions in a production AI pipeline. The objective is simple: every publishe..."
 ---
 
 ## Executive Summary
