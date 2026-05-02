@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "L.A.G.T.E.R: Modelimi i Ndryshimeve te Organeve permes Biomarkereve te Hershme — Dry Eye si Sinjal Sistemik"
-date: 2026-03-18 20:26:48 +0000
+date: 2026-05-02 22:20:21 +0000
 categories: [Research Notes, Cell Research, Materials Science]
 author: Lagter
 source: lagter
 article_id: 2026-03-18-lagter-organ-change-biomarkers-dry-eye-chain-model
-tags: [Research Notes, Cell Research]
-excerpt: "L.A.G.T.E.R: Modelimi i Ndryshimeve te Organeve permes Biomarkereve te Hershme — Dry Eye si Sinjal Sistemik..."
+tags: [Clisonix, ClisonixCloud, lagter, Research Notes, Cell Research, Materials Science]
+excerpt: "> **Clisonix Cloud · L.A.G.T.E.R — Labor Auditimi te Gjurmeve Trupore dhe Enigmave Rezultuese** > Dokumenti i pare shkencor · Faza 1 · Mars 2026"
 ---
 
 > **Clisonix Cloud · L.A.G.T.E.R — Labor Auditimi te Gjurmeve Trupore dhe Enigmave Rezultuese**
