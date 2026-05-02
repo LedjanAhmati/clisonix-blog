@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals"
-date: 2026-03-18 20:26:38 +0000
+date: 2026-05-02 22:20:02 +0000
 categories: [Research Notes, Cell Research]
 author: Lagter
 source: lagter
 article_id: 2026-03-18-lagter-cell-state-transition-notes
-tags: [Research Notes, Cell Research]
-excerpt: "Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals..."
+tags: [Clisonix, ClisonixCloud, lagter, Research Notes, Cell Research, Research]
+excerpt: "## Abstract This Lagter note defines a deterministic method for tracking cell-state transitions in noisy industrial telemetry. The objective is to avoid black-box decisions by using explicit transi..."
 ---
 
 ## Abstract
