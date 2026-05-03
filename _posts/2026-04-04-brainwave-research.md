@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-03 20:31:31 +0000
+date: 2026-05-03 21:31:40 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 6e0a747b575d7d74
+article_id: b495501056ef59e2
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Brainwave Research is being tracked as a substantive newsroom item from ALBA (Lab #10), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slo..."
+excerpt: "Brainwave Research is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slog..."
 ---
 
-Brainwave Research is being tracked as a substantive newsroom item from ALBA (Lab #10), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Brainwave Research is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
