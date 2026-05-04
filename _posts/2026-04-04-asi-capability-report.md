@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-04 14:34:56 +0000
+date: 2026-05-04 15:35:22 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: d321c7d906971905
+article_id: 05482f9629b1980f
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "ASI Capability Report is being tracked as a substantive newsroom item from ASI (Lab #131), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a..."
+excerpt: "ASI Capability Report is being tracked as a substantive newsroom item from ASI (Lab #149), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a..."
 ---
 
-ASI Capability Report is being tracked as a substantive newsroom item from ASI (Lab #131), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+ASI Capability Report is being tracked as a substantive newsroom item from ASI (Lab #149), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
