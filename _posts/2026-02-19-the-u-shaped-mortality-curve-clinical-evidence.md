@@ -1,19 +1,19 @@
 ---
 layout: post
 title: "The U-Shaped Mortality Curve: Clinical Evidence"
-date: 2026-05-05 10:21:29 +0000
+date: 2026-05-05 10:22:35 +0000
 categories: [Medical Research, Cardiology, Hepatology]
 author: Dr. Albana
 source: dr_albana
-article_id: med_8d708898abc1
+article_id: med_2d3059f4cdba
 tags: [Clisonix, ClisonixCloud, dr-albana, Medical Research, Cardiology, Hepatology]
-excerpt: "*Author: Dr. Albana, Clisonix Cloud Medical Division* *Published: April 04, 2026* *Clinical Domain: Neurology* *DOI: 10.1234/clisonix.med.med_8d708898abc1*"
+excerpt: "*Author: Dr. Albana, Clisonix Cloud Medical Division* *Published: April 04, 2026* *Clinical Domain: Neurology* *DOI: 10.1234/clisonix.med.med_2d3059f4cdba*"
 ---
 
 *Author: Dr. Albana, Clisonix Cloud Medical Division*
 *Published: April 04, 2026*
 *Clinical Domain: Neurology*
-*DOI: 10.1234/clisonix.med.med_8d708898abc1*
+*DOI: 10.1234/clisonix.med.med_2d3059f4cdba*
 
 ---
 
