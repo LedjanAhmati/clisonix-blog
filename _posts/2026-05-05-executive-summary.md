@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-05 18:59:55 +0000
+date: 2026-05-05 19:00:11 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 553dd339ae9226bd
+article_id: 46d5b516b9904206
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #18), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publish..."
+excerpt: "AI Governance Update is being tracked as a substantive newsroom item from ASI (Lab #136), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a ..."
 ---
 
-Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #18), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+AI Governance Update is being tracked as a substantive newsroom item from ASI (Lab #136), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
@@ -18,15 +18,15 @@ Current engine signal: status=operational. This snapshot is preserved because it
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Cognitive Pe...**
+**📋 Analysis of: Generate a brief factual analysis of: AI Governanc...**
 
-**Domain:** science
+**Domain:** ai
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Cognitive
+Keywords identified: Generate, brief, factual, analysis, Governance
 
 **Response Structure:**
 • Main Point
