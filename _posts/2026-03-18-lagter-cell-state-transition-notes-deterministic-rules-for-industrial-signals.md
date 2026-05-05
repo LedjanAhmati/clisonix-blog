@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lagter Cell-State Transition Notes: Deterministic Rules for Industrial Signals"
-date: 2026-05-05 09:44:44 +0000
+date: 2026-05-05 09:52:26 +0000
 categories: [Research Notes, Cell Research]
 author: Lagter
 source: lagter
