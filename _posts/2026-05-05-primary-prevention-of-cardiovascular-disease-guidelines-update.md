@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Primary prevention of cardiovascular disease: guidelines update"
-date: 2026-05-05 09:43:37 +0000
+date: 2026-05-05 09:51:19 +0000
 categories: [Medical Research, Cardiology, Hepatology]
 author: Dr. Albana
 source: dr_albana
