@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sudden cardiac death in young athletes: screening protocols"
-date: 2026-05-05 09:43:53 +0000
+date: 2026-05-05 09:51:36 +0000
 categories: [Medical Research, Cardiology]
 author: Dr. Albana
 source: dr_albana
