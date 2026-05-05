@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hepatic Ammonia and IGF-1 Dysregulation: The Common Pathway"
-date: 2026-05-05 10:52:19 +0000
+date: 2026-05-05 11:58:40 +0000
 categories: [Medical Research, Cardiology, Hepatology]
 author: Dr. Albana
 source: dr_albana
