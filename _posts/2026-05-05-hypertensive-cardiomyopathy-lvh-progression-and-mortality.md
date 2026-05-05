@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hypertensive cardiomyopathy: LVH progression and mortality"
-date: 2026-05-05 09:42:59 +0000
+date: 2026-05-05 09:50:42 +0000
 categories: [Medical Research, Cardiology, Hepatology]
 author: Dr. Albana
 source: dr_albana
