@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-06 12:04:56 +0000
+date: 2026-05-06 17:05:51 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 6f6bf1fcc0b79125
+article_id: e255cf99041edae3
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Scientific Knowledge Update is being tracked as a substantive newsroom item from OCEAN (Lab #92), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than pub..."
+excerpt: "Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing ..."
 ---
 
-Scientific Knowledge Update is being tracked as a substantive newsroom item from OCEAN (Lab #92), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
@@ -18,7 +18,7 @@ Current engine signal: status=healthy | version=5.0.0. This snapshot is preserve
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Scientific K...**
+**📋 Analysis of: Generate a brief factual analysis of: Knowledge Di...**
 
 **Domain:** general
 **Strategy:** comprehensive
@@ -26,7 +26,7 @@ Current engine signal: status=healthy | version=5.0.0. This snapshot is preserve
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Scientific
+Keywords identified: Generate, brief, factual, analysis, Knowledge
 
 **Response Structure:**
 • Main Point
