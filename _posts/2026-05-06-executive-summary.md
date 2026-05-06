@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-06 00:01:26 +0000
+date: 2026-05-06 02:01:50 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 79aecfb93d94c874
+article_id: e2d63407bf6e5214
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Multimodal Reformatting Pipelines in Production is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather ..."
+excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
 ---
 
-Multimodal Reformatting Pipelines in Production is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=healthy | version=2.0.0-blerina. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Multimodal R...**
+**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
 
-**Domain:** business
+**Domain:** science
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Multimodal
+Keywords identified: Generate, brief, factual, analysis, Workforce
 
 **Response Structure:**
 • Main Point
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Multimodal
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.04ms*
+*Processing time: 0.05ms*
 
 ## Editorial Standard
 
