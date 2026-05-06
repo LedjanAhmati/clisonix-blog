@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-06 09:03:23 +0000
+date: 2026-05-06 09:03:38 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: ca9ea6da8230bbdc
+article_id: 0c4ed2226ae54d37
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishin..."
+excerpt: "Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishin..."
 ---
 
-Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=healthy | version=5.0.0. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=healthy | version=2.0.0-blerina. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Deep Learnin...**
+**📋 Analysis of: Generate a brief factual analysis of: Evidence-Bas...**
 
-**Domain:** ai
+**Domain:** general
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Deep
+Keywords identified: Generate, brief, factual, analysis, Evidence-Based
 
 **Response Structure:**
 • Main Point
