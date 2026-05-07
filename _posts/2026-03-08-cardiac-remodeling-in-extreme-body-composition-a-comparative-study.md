@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cardiac Remodeling in Extreme Body Composition: A Comparative Study"
-date: 2026-05-07 18:02:16 +0000
+date: 2026-05-07 18:06:15 +0000
 categories: [Technology, Neurotechnology, Brain-Computer Interface]
 author: Blerina
 source: blerina
