@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-03 17:30:54 +0000
+date: 2026-05-08 09:06:13 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: f54b53ac2e206276
+article_id: 19d9394615a50cdd
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Agent Telemetry Insight is being tracked as a substantive newsroom item from AGENTS (Lab #175), with relevance to the domain of Multi-Agent Orchestration · Clisonix Core. Rather than publishing a s..."
 ---
