@@ -1,24 +1,24 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-08 16:07:47 +0000
+date: 2026-05-08 17:08:03 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 579abe994c74cf66
+article_id: 4b142f2fe1b2543d
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing ..."
+excerpt: "Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishin..."
 ---
 
-Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=healthy | version=5.0.0. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=healthy | version=2.0.0-blerina. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Knowledge Di...**
+**📋 Analysis of: Generate a brief factual analysis of: Evidence-Bas...**
 
 **Domain:** general
 **Strategy:** comprehensive
@@ -26,7 +26,7 @@ Current engine signal: status=healthy | version=5.0.0. This snapshot is preserve
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Knowledge
+Keywords identified: Generate, brief, factual, analysis, Evidence-Based
 
 **Response Structure:**
 • Main Point
