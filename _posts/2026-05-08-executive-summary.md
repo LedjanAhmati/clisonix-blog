@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-08 08:06:03 +0000
+date: 2026-05-08 10:06:28 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: a9e0fa1cd1b0724e
+article_id: 53b0d1cb1bdd1ec8
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
+excerpt: "Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #110), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishin..."
 ---
 
-Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Evidence-Based NLP Workflow Brief is being tracked as a substantive newsroom item from BLERINA (Lab #110), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=healthy | version=2.0.0-blerina. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
+**📋 Analysis of: Generate a brief factual analysis of: Evidence-Bas...**
 
-**Domain:** science
+**Domain:** general
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Workforce
+Keywords identified: Generate, brief, factual, analysis, Evidence-Based
 
 **Response Structure:**
 • Main Point
