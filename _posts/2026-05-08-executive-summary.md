@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-09 11:12:08 +0000
+date: 2026-05-09 14:12:46 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: aba400790a52e530
+article_id: d9ea60c47f0ef80b
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing ..."
+excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
 ---
 
-Knowledge Discovery is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=healthy | version=5.0.0. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Knowledge Di...**
+**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
 
-**Domain:** general
+**Domain:** science
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Knowledge
+Keywords identified: Generate, brief, factual, analysis, Workforce
 
 **Response Structure:**
 • Main Point
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Knowledge
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.04ms*
+*Processing time: 0.06ms*
 
 ## Editorial Standard
 
