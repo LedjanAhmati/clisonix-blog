@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-09 20:14:05 +0000
+date: 2026-05-09 23:14:50 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 7f974a390cd749d9
+article_id: aa0a7843906bbfa9
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Art & AI Fusion is being tracked as a substantive newsroom item from ALBI (Lab #25), with relevance to the domain of Creative Intelligence · Generative Systems. Rather than publishing a slogan or s..."
+excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
 ---
 
-Art & AI Fusion is being tracked as a substantive newsroom item from ALBI (Lab #25), with relevance to the domain of Creative Intelligence · Generative Systems. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=operational. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Art & AI Fus...**
+**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
 
-**Domain:** ai
+**Domain:** science
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Fusion
+Keywords identified: Generate, brief, factual, analysis, Workforce
 
 **Response Structure:**
 • Main Point
