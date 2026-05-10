@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-09 16:13:10 +0000
+date: 2026-05-10 05:15:59 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 9d0b292c68191522
+article_id: 74f3f1028073f713
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "LIAM Computation Insight is being tracked as a substantive newsroom item from LIAM (Lab #159), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishin..."
+excerpt: "LIAM Computation Insight is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishin..."
 ---
 
-LIAM Computation Insight is being tracked as a substantive newsroom item from LIAM (Lab #159), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+LIAM Computation Insight is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
