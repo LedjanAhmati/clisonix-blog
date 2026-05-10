@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-09 06:11:04 +0000
+date: 2026-05-10 11:17:24 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 57a2f6c01750679c
+article_id: ac184652e4d71ffb
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Labor Market Analysis is being tracked as a substantive newsroom item from LIAM (Lab #163), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a..."
+excerpt: "Labor Market Analysis is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a..."
 ---
 
-Labor Market Analysis is being tracked as a substantive newsroom item from LIAM (Lab #163), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Labor Market Analysis is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
