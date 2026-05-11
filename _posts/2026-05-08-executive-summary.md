@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-10 18:18:54 +0000
+date: 2026-05-11 01:20:28 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 6809bd5136d88602
+article_id: 892391ee088de1c6
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "AI Governance Update is being tracked as a substantive newsroom item from ASI (Lab #120), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a ..."
+excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
 ---
 
-AI Governance Update is being tracked as a substantive newsroom item from ASI (Lab #120), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=operational. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: AI Governanc...**
+**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
 
-**Domain:** ai
+**Domain:** science
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Governance
+Keywords identified: Generate, brief, factual, analysis, Workforce
 
 **Response Structure:**
 • Main Point
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Governance
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.04ms*
+*Processing time: 0.03ms*
 
 ## Editorial Standard
 
