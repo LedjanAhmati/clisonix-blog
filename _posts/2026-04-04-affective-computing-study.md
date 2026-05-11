@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-05 22:00:55 +0000
+date: 2026-05-11 21:25:45 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 606ed4491f8e73d2
+article_id: 0b71c3ccfc1e2d98
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Affective Computing Study is being tracked as a substantive newsroom item from JONA (Lab #50), with relevance to the domain of Emotional Intelligence · Neural Affective Computing. Rather than publi..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Affective
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.06ms*
+*Processing time: 0.04ms*
 
 ## Editorial Standard
 
