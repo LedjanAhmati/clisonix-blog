@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-11 13:23:57 +0000
+date: 2026-05-11 16:24:54 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: d6973a1985d5ea2f
+article_id: 5ab0cc19322b562f
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishin..."
+excerpt: "Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #78), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishin..."
 ---
 
-Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #78), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
