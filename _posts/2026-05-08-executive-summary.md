@@ -1,32 +1,32 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-11 16:24:54 +0000
+date: 2026-05-11 23:26:17 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 5ab0cc19322b562f
+article_id: a716f3e508e1621d
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #78), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishin..."
+excerpt: "Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a ..."
 ---
 
-Deep Learning Insight is being tracked as a substantive newsroom item from OCEAN (Lab #78), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Workforce Data Study is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
-Current engine signal: status=healthy | version=5.0.0. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
+Current engine signal: status=embedded. This snapshot is preserved because it provides a verifiable checkpoint for service health, version state, and cross-engine coordination at the moment the item entered the newsroom flow.
 
 ## Analytical Interpretation
 
-**📋 Analysis of: Generate a brief factual analysis of: Deep Learnin...**
+**📋 Analysis of: Generate a brief factual analysis of: Workforce Da...**
 
-**Domain:** ai
+**Domain:** science
 **Strategy:** comprehensive
 **Confidence:** 78%
 
 **Analysis:**
 Input type: command
-Keywords identified: Generate, brief, factual, analysis, Deep
+Keywords identified: Generate, brief, factual, analysis, Workforce
 
 **Response Structure:**
 • Main Point
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Deep
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.02ms*
+*Processing time: 0.04ms*
 
 ## Editorial Standard
 
