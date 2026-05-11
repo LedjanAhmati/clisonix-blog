@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-11 10:23:17 +0000
+date: 2026-05-11 19:25:25 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 52b1fb7a9c5fc6c4
+article_id: 649fc81e0b8764c4
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Neural Pattern Detection is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing ..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Neural
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.04ms*
+*Processing time: 0.08ms*
 
 ## Editorial Standard
 
