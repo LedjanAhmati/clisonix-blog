@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-07 23:03:09 +0000
+date: 2026-05-13 00:32:04 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 446fce611d5a1278
+article_id: afa6aa0c30891821
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "ASI Capability Report is being tracked as a substantive newsroom item from ASI (Lab #120), with relevance to the domain of Artificial Super Intelligence · Mesh Coordinator. Rather than publishing a..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Capability
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.02ms*
+*Processing time: 0.06ms*
 
 ## Editorial Standard
 
