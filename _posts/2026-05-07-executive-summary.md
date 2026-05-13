@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-13 14:36:01 +0000
+date: 2026-05-13 17:37:19 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 2b4228871b73597c
+article_id: c9a8831e67edd8d0
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishi..."
+excerpt: "Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #13), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publish..."
 ---
 
-Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Cognitive Performance Study is being tracked as a substantive newsroom item from ALBA (Lab #13), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Cognitive
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.06ms*
+*Processing time: 0.03ms*
 
 ## Editorial Standard
 
