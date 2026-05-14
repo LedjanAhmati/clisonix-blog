@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-13 09:33:58 +0000
+date: 2026-05-14 14:41:52 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: 3a5681620bc5bb28
+article_id: ee6049247b47b7b8
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Curiosity Engine Report is being tracked as a substantive newsroom item from OCEAN (Lab #75), with relevance to the domain of Knowledge Engine · Curiosity AI · Zürich Reasoning. Rather than publish..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Curiosity
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.01ms*
+*Processing time: 0.04ms*
 
 ## Editorial Standard
 
