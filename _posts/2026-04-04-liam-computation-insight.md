@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-13 01:32:14 +0000
+date: 2026-05-14 15:42:34 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: f31f2deb83b31eb7
+article_id: ba2bf3deec5ef6e7
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "LIAM Computation Insight is being tracked as a substantive newsroom item from LIAM (Lab #150), with relevance to the domain of LIAM Binary Algebra · Labor Intelligence Engine. Rather than publishin..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, LIAM
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.05ms*
+*Processing time: 0.08ms*
 
 ## Editorial Standard
 
