@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-13 20:37:54 +0000
+date: 2026-05-14 03:39:39 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: dc8e62e4a6cf9796
+article_id: aa643f4df5bc778a
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Brainwave Research is being tracked as a substantive newsroom item from ALBA (Lab #0), with relevance to the domain of Analytical Intelligence · EEG Signal Processing. Rather than publishing a slog..."
 ---
@@ -38,7 +38,7 @@ Keywords identified: Generate, brief, factual, analysis, Brainwave
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.07ms*
+*Processing time: 0.06ms*
 
 ## Editorial Standard
 
