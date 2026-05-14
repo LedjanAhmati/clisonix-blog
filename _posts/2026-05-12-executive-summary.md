@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-12 05:27:42 +0000
+date: 2026-05-14 02:39:29 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: ade3cd0b7702b38b
+article_id: b3cd4431c4957c09
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
-excerpt: "Semantic Processing Under Real Service Constraints is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rath..."
+excerpt: "Semantic Processing Under Real Service Constraints is being tracked as a substantive newsroom item from BLERINA (Lab #110), with relevance to the domain of Reformatter · Multimodal Processing. Rath..."
 ---
 
-Semantic Processing Under Real Service Constraints is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
+Semantic Processing Under Real Service Constraints is being tracked as a substantive newsroom item from BLERINA (Lab #110), with relevance to the domain of Reformatter · Multimodal Processing. Rather than publishing a slogan or status snippet, this brief records the current state of the system in a form suitable for later editorial expansion and audit review.
 
 ## Operational Evidence
 
