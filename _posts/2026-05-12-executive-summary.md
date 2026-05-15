@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Executive Summary"
-date: 2026-05-14 15:42:08 +0000
+date: 2026-05-15 17:49:04 +0000
 categories: [Newsroom, AI Industry, Health]
 author: Clisonix Newsroom
 source: newsroom
-article_id: f80ab523d71909d5
+article_id: be33d962d66a8a2e
 tags: [Clisonix, ClisonixCloud, newsroom, Newsroom, AI Industry, Health]
 excerpt: "Semantic Processing Under Real Service Constraints is being tracked as a substantive newsroom item from BLERINA (Lab #100), with relevance to the domain of Reformatter · Multimodal Processing. Rath..."
 ---
@@ -41,7 +41,7 @@ Keywords identified: Generate, brief, factual, analysis, Semantic
 
 ---
 *Processed by Zürich Engine v1.0 - 9-stage deterministic cycle*
-*Processing time: 0.04ms*
+*Processing time: 0.02ms*
 
 ## Editorial Standard
 
