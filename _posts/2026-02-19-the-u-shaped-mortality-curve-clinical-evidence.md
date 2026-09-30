@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The U-Shaped Mortality Curve: Clinical Evidence"
-date: 2026-05-07 18:08:49 +0000
+date: 2026-09-30 21:11:14 +0000
 categories: [Medical Research, Cardiology, Hepatology]
 author: Dr. Albana
 source: dr_albana
