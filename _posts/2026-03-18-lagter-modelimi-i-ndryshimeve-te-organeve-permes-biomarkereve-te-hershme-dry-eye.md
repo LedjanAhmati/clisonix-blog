@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "L.A.G.T.E.R: Modelimi i Ndryshimeve te Organeve permes Biomarkereve te Hershme — Dry Eye si Sinjal Sistemik"
-date: 2026-05-07 18:09:21 +0000
+date: 2026-09-30 21:13:32 +0000
 categories: [Research Notes, Cell Research, Materials Science]
 author: Lagter
 source: lagter
