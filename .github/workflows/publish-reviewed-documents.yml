@@ -1,0 +1,64 @@
+name: Publish Reviewed Clisonix Documents
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    branches: [main]
+    paths: ['_posts/**', 'posts/**', '.github/workflows/publish-reviewed-documents.yml']
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: reviewed-blog-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v5
+        with:
+          repository: Web8kameleon-hub/clisonix.com
+          ref: main
+          path: _engine
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Verify the accepted publisher implementation
+        run: |
+          python -m unittest discover -s _engine/tests/unit -p test_blog_pages.py -v
+          node --test _engine/tests/blog-pages-ui.test.mjs
+      - name: Publish only exact reviewed documents and preserve the archive
+        run: |
+          python _engine/scripts/publish_blog_pages.py --repository . --reviewed _engine/docs/public-blog
+          python _engine/scripts/publish_blog_pages.py --repository . --verify
+          node --check app.js
+      - name: Commit changed static publications
+        id: publication
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .nojekyll index.html app.js assets library articles feed.xml sitemap.xml
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publish reviewed documents from $(git -C _engine rev-parse --short HEAD)"
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "Accepted publisher source: $(git -C _engine rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          echo "Blog source: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Request native GitHub Pages build
+        if: steps.publication.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
