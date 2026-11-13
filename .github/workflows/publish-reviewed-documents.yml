@@ -21,14 +21,18 @@ jobs:
         with:
           fetch-depth: 0
       - name: Verify private source access is configured
+        id: access
         env:
           CLISONIX_SOURCE_READ_TOKEN: ${{ secrets.CLISONIX_SOURCE_READ_TOKEN }}
         run: |
           if [ -z "$CLISONIX_SOURCE_READ_TOKEN" ]; then
-            echo "::error::Missing CLISONIX_SOURCE_READ_TOKEN. Add a fine-grained token with Contents: read access to Web8kameleon-hub/clisonix.com as a repository Actions secret."
-            exit 1
+            echo "::warning::Missing CLISONIX_SOURCE_READ_TOKEN; skipping publication. Add a fine-grained token with Contents: read access to Web8kameleon-hub/clisonix.com as a repository Actions secret."
+            echo 'configured=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'configured=true' >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/checkout@v5
+        if: steps.access.outputs.configured == 'true'
         with:
           repository: Web8kameleon-hub/clisonix.com
           ref: main
@@ -36,21 +40,26 @@ jobs:
           token: ${{ secrets.CLISONIX_SOURCE_READ_TOKEN }}
           persist-credentials: false
       - uses: actions/setup-python@v6
+        if: steps.access.outputs.configured == 'true'
         with:
           python-version: '3.14'
       - uses: actions/setup-node@v5
+        if: steps.access.outputs.configured == 'true'
         with:
           node-version: '24'
       - name: Verify the accepted publisher implementation
+        if: steps.access.outputs.configured == 'true'
         run: |
           python -m unittest discover -s _engine/tests/unit -p test_blog_pages.py -v
           node --test _engine/tests/blog-pages-ui.test.mjs
       - name: Publish only exact reviewed documents and preserve the archive
+        if: steps.access.outputs.configured == 'true'
         run: |
           python _engine/scripts/publish_blog_pages.py --repository . --reviewed _engine/docs/public-blog
           python _engine/scripts/publish_blog_pages.py --repository . --verify
           node --check app.js
       - name: Commit changed static publications
+        if: steps.access.outputs.configured == 'true'
         id: publication
         run: |
           set -euo pipefail
